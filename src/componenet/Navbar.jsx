@@ -1,9 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-function navbar() {
-  return (
     
-    function navbar() {
+    function Navbar() {
       return (
         <>
         <nav>
@@ -14,15 +12,15 @@ function navbar() {
                 </div>
                 <ul>
                     <li>
-                        <navlink to="/">home</navlink>
+                        <NavLink to="/">home</NavLink>
                     </li>
-                      to="/"
+                    
                       <li>
-                        <navlink to="/anime">anime</navlink>
+                        <NavLink to="/anime">anime</NavLink>
                       </li>
     
                       <li>
-                        <navlink to="/about">About</navlink>
+                        <NavLink to="/about">About</NavLink>
                       </li>
                 </ul>
     
@@ -32,7 +30,7 @@ function navbar() {
         </>
       )
     }
-  )
-}
+  
 
-export default navbar;
+
+export default Navbar;
